@@ -17,6 +17,6 @@ phases:
     commands:
       - echo Running tests
       - npm test
-  artifacts:
-    files:
-      - output/**/*
+artifacts:
+  files:
+    - output/**/*
