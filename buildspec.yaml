@@ -17,6 +17,7 @@ phases:
     commands:
       - echo Running tests
       - npm test
+      - aws s3 cp coverage s3://agbt3-coverage/ --recursive 
 artifacts:
   secondary-artifacts:
     coverage:
