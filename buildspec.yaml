@@ -18,9 +18,10 @@ phases:
       - echo Running tests
       - npm test
 artifacts:
-  files:
-    - 'output/**/*'
   secondary-artifacts:
     coverage:
       files:
         - 'coverage/**/*'
+    BuildArtifact:
+      files:
+        - 'output/**/*'
