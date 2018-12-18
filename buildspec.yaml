@@ -19,4 +19,4 @@ phases:
       - npm test
 artifacts:
   files:
-    - **/*
+    - '**/*'
