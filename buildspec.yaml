@@ -20,3 +20,7 @@ phases:
 artifacts:
   files:
     - 'output/**/*'
+  secondary-artifacts:
+    coverage:
+      files:
+        - 'coverage/**/*'
